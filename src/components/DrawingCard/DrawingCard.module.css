@@ -20,6 +20,7 @@
 }
 
 .art {
+  position: relative;
   aspect-ratio: 1;
   overflow: hidden;
   background: #000;
@@ -31,6 +32,15 @@
   height: 100%;
   object-fit: cover;
   transition: transform 500ms var(--ease);
+}
+
+.imageDark {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition:
+    transform 500ms var(--ease),
+    opacity 400ms var(--ease);
 }
 
 .caption {
@@ -57,6 +67,10 @@
 @media (hover: hover) {
   .card:hover .image {
     transform: scale(1.04);
+  }
+
+  .card:hover .imageDark {
+    opacity: 1;
   }
 
   .card:hover .arrow {

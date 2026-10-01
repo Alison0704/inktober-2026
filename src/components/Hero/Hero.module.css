@@ -1,37 +1,15 @@
 .hero {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   max-width: var(--page-max-width);
+  min-height: 100vh;
   margin: 0 auto;
   padding: 4rem 1.5rem;
   border-bottom: 1px solid #000;
 }
 
-.aside {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 2.5rem;
-}
-
-.verticalLabel {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-size: 10px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-}
-
-.eyebrow {
-  margin-bottom: 1.25rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-}
-
 .title {
-  max-width: 56rem;
   font-family: var(--font-display);
   font-size: clamp(4.5rem, 11vw, 10rem);
   line-height: 0.75;
@@ -39,6 +17,8 @@
 }
 
 .italic {
+  display: block;
+  margin-top: 0.5em;
   font-style: italic;
 }
 
@@ -47,7 +27,6 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 1.75rem;
-  max-width: 42rem;
   margin-top: 3rem;
   padding-top: 1.25rem;
   border-top: 1px solid #000;
@@ -99,11 +78,6 @@
 
 @media (min-width: 768px) {
   .hero {
-    grid-template-columns: 1fr 2fr;
     padding: 6rem 2.5rem;
-  }
-
-  .aside {
-    margin-bottom: 0;
   }
 }

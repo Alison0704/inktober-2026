@@ -11,6 +11,9 @@ export default function DrawingCard({ drawing, onSelect }) {
       </div>
       <div className={styles.art}>
         <img className={styles.image} src={drawing.image} alt={`Day ${formatDay(drawing.day)}: ${drawing.prompt}`} />
+        {drawing.imageDark && (
+          <img className={`${styles.image} ${styles.imageDark}`} src={drawing.imageDark} alt="" aria-hidden="true" />
+        )}
       </div>
       <div className={styles.caption}>
         <span className={styles.prompt}>{drawing.prompt}</span>

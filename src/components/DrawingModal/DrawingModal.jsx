@@ -30,9 +30,6 @@ export default function DrawingModal({ drawing, onClose }) {
               Day {formatDay(drawing.day)} — {drawing.date}
             </p>
             <h3 className={styles.title}>{drawing.prompt}</h3>
-            <p className={styles.medium}>
-              148 × 210 mm
-            </p>
           </div>
         </div>
       </div>
