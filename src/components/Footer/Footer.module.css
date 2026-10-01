@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+.link {
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #000;
+}
+
+.copy {
+  margin: 0;
+  font-size: var(--fs-p);
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 640px) {
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding-inline: 2.5rem;
+  }
+}
