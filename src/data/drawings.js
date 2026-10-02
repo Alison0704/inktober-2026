@@ -1,11 +1,13 @@
 import comingSoon from "../assets/Coming Soon.png";
 import temp from "../assets/Temp.png";
-import day1 from "../assets/Day1-Morning-light.webp";
-import day1Dark from "../assets/Day1-Morning-dark.webp";
+import day1 from "../assets/Day1-Morning.png";
+import day1Dark from "../assets/Day1-Morning-Dark.png";
+import day2 from "../assets/Day2-Light.png";
+import day2Dark from "../assets/Day2-Light-Dark.png";
 
 export const drawings = [
   { day: 1, prompt: "Morning", date: "Oct 01", image: day1, imageDark: day1Dark },
-  { day: 2, prompt: "Light", date: "Oct 02", image: comingSoon },
+  { day: 2, prompt: "Light", date: "Oct 02", image: day2, imageDark: day2Dark },
   { day: 3, prompt: "Small", date: "Oct 03", image: comingSoon },
   { day: 4, prompt: "Cat", date: "Oct 04", image: comingSoon },
   { day: 5, prompt: "Sky", date: "Oct 05", image: comingSoon },
