@@ -14,7 +14,7 @@ export default function Hero() {
           <p className={styles.introText}>
             Thirty-one days of daily practice in black and white.
           </p>
-           <a href="https://www.instagram.com/p/Ddo582dAD40/?img_index=1" target="_blank" rel="noopener noreferrer" xsclassName={styles.challengePostLink}>
+           <a className={styles.link} href="https://www.instagram.com/p/Ddo582dAD40/?img_index=1" target="_blank" rel="noopener noreferrer" xsclassName={styles.challengePostLink}>
               Challenge post on instagram
             </a>
           </div>
