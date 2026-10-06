@@ -10,6 +10,8 @@ import day4 from "../assets/Day4-Cat.png";
 import day4Dark from "../assets/Day4-Cat-Dark.png";
 import day5 from "../assets/Day5-Sky.png";
 import day5Dark from "../assets/Day5-Sky-Dark.png";
+import day6 from "../assets/Day6-Mauritian-Bird.png";
+import day6Dark from "../assets/Day6-Mauritian-Bird-Dark.png";
 
 export const drawings = [
   { day: 1, prompt: "Morning", date: "Oct 01", image: day1, imageDark: day1Dark },
@@ -17,7 +19,7 @@ export const drawings = [
   { day: 3, prompt: "Small", date: "Oct 03", image: day3, imageDark: day3Dark },
   { day: 4, prompt: "Cat", date: "Oct 04", image: day4, imageDark: day4Dark },
   { day: 5, prompt: "Sky", date: "Oct 05", image: day5, imageDark: day5Dark },
-  { day: 6, prompt: "Mauritian Bird", date: "Oct 06", image: comingSoon },
+  { day: 6, prompt: "Mauritian Bird", date: "Oct 06", image: day6, imageDark: day6Dark },
   { day: 7, prompt: "Wild Sea Life", date: "Oct 07", image: comingSoon },
   { day: 8, prompt: "One Big Toe", date: "Oct 08", image: comingSoon },
   { day: 9, prompt: "Hollow", date: "Oct 09", image: comingSoon },
