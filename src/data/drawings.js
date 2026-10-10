@@ -12,6 +12,14 @@ import day5 from "../assets/Day5-Sky.png";
 import day5Dark from "../assets/Day5-Sky-Dark.png";
 import day6 from "../assets/Day6-Mauritian-Bird.png";
 import day6Dark from "../assets/Day6-Mauritian-Bird-Dark.png";
+import day7 from "../assets/Day7-Wild-Sea-Life.png";
+import day7Dark from "../assets/Day7-Wild-Sea-Life-Dark.png";
+import day8 from "../assets/Day8-One-Big-Toe.png";
+import day8Dark from "../assets/Day8-One-Big-Toe-Dark.png";
+import day9 from "../assets/Day9-Hollow.png";
+import day9Dark from "../assets/Day9-Hollow-Dark.png";
+import day10 from "../assets/Day10-Isolated.png";
+import day10Dark from "../assets/Day10-Isolated-Dark.png";
 
 export const drawings = [
   { day: 1, prompt: "Morning", date: "Oct 01", image: day1, imageDark: day1Dark },
@@ -20,10 +28,10 @@ export const drawings = [
   { day: 4, prompt: "Cat", date: "Oct 04", image: day4, imageDark: day4Dark },
   { day: 5, prompt: "Sky", date: "Oct 05", image: day5, imageDark: day5Dark },
   { day: 6, prompt: "Mauritian Bird", date: "Oct 06", image: day6, imageDark: day6Dark },
-  { day: 7, prompt: "Wild Sea Life", date: "Oct 07", image: comingSoon },
-  { day: 8, prompt: "One Big Toe", date: "Oct 08", image: comingSoon },
-  { day: 9, prompt: "Hollow", date: "Oct 09", image: comingSoon },
-  { day: 10, prompt: "Isolated", date: "Oct 10", image: comingSoon },
+  { day: 7, prompt: "Wild Sea Life", date: "Oct 07", image: day7, imageDark: day7Dark },
+  { day: 8, prompt: "One Big Toe", date: "Oct 08", image: day8, imageDark: day8Dark },
+  { day: 9, prompt: "Hollow", date: "Oct 09", image: day9, imageDark: day9Dark },
+  { day: 10, prompt: "Isolated", date: "Oct 10", image: day10, imageDark: day10Dark },
   { day: 11, prompt: "Cold", date: "Oct 11", image: comingSoon },
   { day: 12, prompt: "Blind", date: "Oct 12", image: comingSoon },
   { day: 13, prompt: "Stare-Off", date: "Oct 13", image: comingSoon },
