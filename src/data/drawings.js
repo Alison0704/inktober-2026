@@ -20,6 +20,10 @@ import day9 from "../assets/Day9-Hollow.png";
 import day9Dark from "../assets/Day9-Hollow-Dark.png";
 import day10 from "../assets/Day10-Isolated.png";
 import day10Dark from "../assets/Day10-Isolated-Dark.png";
+import day11 from "../assets/Day11-Cold.png";
+import day11Dark from "../assets/Day11-Cold-Dark.png";
+import day12 from "../assets/Day12-Blind.png";
+import day12Dark from "../assets/Day12-Blind-Dark.png";
 
 export const drawings = [
   { day: 1, prompt: "Morning", date: "Oct 01", image: day1, imageDark: day1Dark },
@@ -32,8 +36,8 @@ export const drawings = [
   { day: 8, prompt: "One Big Toe", date: "Oct 08", image: day8, imageDark: day8Dark },
   { day: 9, prompt: "Hollow", date: "Oct 09", image: day9, imageDark: day9Dark },
   { day: 10, prompt: "Isolated", date: "Oct 10", image: day10, imageDark: day10Dark },
-  { day: 11, prompt: "Cold", date: "Oct 11", image: comingSoon },
-  { day: 12, prompt: "Blind", date: "Oct 12", image: comingSoon },
+  { day: 11, prompt: "Cold", date: "Oct 11", image: day11, imageDark: day11Dark },
+  { day: 12, prompt: "Blind", date: "Oct 12", image: day12, imageDark: day12Dark },
   { day: 13, prompt: "Stare-Off", date: "Oct 13", image: comingSoon },
   { day: 14, prompt: "Enermy", date: "Oct 14", image: comingSoon },
   { day: 15, prompt: "Jump", date: "Oct 15", image: comingSoon },
